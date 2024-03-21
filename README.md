@@ -5,7 +5,7 @@
 <div align = "center">
 
 [![GitHub](https://img.shields.io/github/license/rasulovdd/namaz-bot)](https://github.com/rasulovdd/namaz-bot/blob/main/LICENSE) 
-[![Telegram](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&color=blue)](https://t.me/namazztime_bot)
+[![Telegram](https://img.shields.io/badge/telegram-blue?logo=telegram)](https://t.me/namazztime_bot)
 
 </div>
 
@@ -17,11 +17,11 @@
 молитвы. Бот работает во всех часовых поясах и также может отслеживать молитвы.
 
 ## Источники:
-Чтобы узнать время молитвы, [this API](https://aladhan.com/prayer-times-api)
-Чтобы получить дату хиджры, [this package](https://hijri-converter.readthedocs.io/en/stable/index.html).
+Чтобы узнать время молитвы, [этот API](https://aladhan.com/prayer-times-api)<br/>
+Чтобы получить дату хиджры, [этот пакет](https://hijri-converter.readthedocs.io/en/stable/index.html).
 
 ## Стек
-Core: python 3, aiogram<br/>
+Core: python 3, aiogram, hijri-converter<br/>
 Database: MongoDB<br/>
 
 ## Установка
