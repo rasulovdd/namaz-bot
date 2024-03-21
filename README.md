@@ -1,5 +1,5 @@
 <p align="center">
-<img src = "https://github.com/rasulovdd/namaz-bot/blob/main/data/photo_1.jpg?raw=true" width = 80%>
+<img src = "https://github.com/rasulovdd/namaz-bot/blob/main/data/photo_1.jpg?raw=true" width = 50%>
 </p>
 
 <div align = "center">
