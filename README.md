@@ -1,7 +1,12 @@
 <p align="center">
 <img src = "https://github.com/rasulovdd/namaz-bot/blob/main/data/photo_1.jpg?raw=true" width = 80%>
 </p>
-[![GitHub](https://img.shields.io/github/license/rasulovdd/namaz-bot)](https://github.com/rasulovdd/namaz-bot/blob/main/LICENSE) [![Telegram](https://img.shields.io/badge/telegram-%40prayersTgBot-blue)](https://t.me/namazztime_bot)
+
+<div align = "center">
+[![GitHub](https://img.shields.io/github/license/rasulovdd/namaz-bot)](https://github.com/rasulovdd/namaz-bot/blob/main/LICENSE) 
+[![Telegram](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&color=blue)](https://t.me/namazztime_bot)
+
+</div>
 
 <h1 align="center">Время Намаза Bot</h1>
 
