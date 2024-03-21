@@ -1,4 +1,7 @@
-[![GitHub](https://img.shields.io/github/license/rasulovdd/namaz-bot)](https://github.com/rasulovdd/namaz-bot/blob/main/LICENSE) [![Telegram](https://img.shields.io/badge/telegram-%40namaz-bot-blue)](https://t.me/namazztime_bot)
+<p align="center">
+<img src = "https://github.com/rasulovdd/namaz-bot/blob/main/data/photo_1.jpg?raw=true" width = 80%>
+</p>
+[![GitHub](https://img.shields.io/github/license/rasulovdd/namaz-bot)](https://github.com/rasulovdd/namaz-bot/blob/main/LICENSE) [![Telegram](https://img.shields.io/badge/telegram-%40prayersTgBot-blue)](https://t.me/namazztime_bot)
 
 <h1 align="center">Время Намаза Bot</h1>
 
@@ -9,7 +12,7 @@
 
 ## Источники:
 Чтобы узнать время молитвы, [this API](https://aladhan.com/prayer-times-api)
-Чтобы получить дату хиджры, [this package](https://hijri-converter.readthedocs.io/en/stable/index.html) is used.
+Чтобы получить дату хиджры, [this package](https://hijri-converter.readthedocs.io/en/stable/index.html).
 
 ## Стек
 Core: python 3, aiogram<br/>
@@ -84,32 +87,11 @@ Database: MongoDB<br/>
 
 ## пример заполнения .env файла:
     # ID администратора
-    ADMIN=
+    ADMIN="2964812"
     BOT_TOKEN="Токен бота"
     # имя пользователя БД
     DB_USER=
     # пароль пользователя БД
     DB_PASSWORD=
     # Адрес базы данных
-    DB_HOST=
-
-    bot_tokken="Токен бота"
-    api_tokken="токен доступа к BotAPI"
-    #Адрес базы данных
-    db_host="127.0.0.1"
-    #имя пользователя БД
-    db_user="bot_user" 
-    #пароль пользователя БД
-    db_password="bot_password1!"
-    #название БД
-    database="taxi_calls_bot"
-    #адрес сервера где будет работать BotAPI
-    my_host="10.10.1.111"
-    #порт сервера где будет работать BotAPI
-    my_port="5010" 
-    #список пользователей для уведомления
-    users_id="2964812"
-    #список пользователей c правами администратора
-    admins_id="2964812"
-    #статус debug режима
-    debug_on=1 
+    DB_HOST="127.0.0.1"
