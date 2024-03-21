@@ -5,7 +5,11 @@
 <div align = "center">
 
 [![GitHub](https://img.shields.io/github/license/rasulovdd/namaz-bot)](https://github.com/rasulovdd/namaz-bot/blob/main/LICENSE) 
-[![Telegram](https://img.shields.io/badge/telegram-blue?logo=telegram)](https://t.me/namazztime_bot)
+[![Telegram](https://img.shields.io/badge/telegram-blue?logo=telegram)](https://t.me/namazztime_bot)<br/>
+[![!Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![!Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![!MongoDB](https://img.shields.io/badge/MongoDB-Blue?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![!Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.org/)
 
 </div>
 
@@ -53,14 +57,30 @@ Database: MongoDB<br/>
     pip install -r requirements.txt
     ```
 
-5. Создаем .env файл с вашими данными, можно создать из шаблона и просто поправить поля <br/>
+5. Изменить в скрипте mongodb-setup.sh следующие параметры: <br/>
+    
+    Пользователь: bot_user
+    Пароль: password1!
+    База данных: namaz_bot
+
+6. Запустить скрипт mongodb-setup.sh<br/>
+    даем права 
+    ```bash
+    chmod +x mongodb-setup.sh
+    ```
+    запускаем скрипт
+    ```bash
+    ~/mongodb-setup.sh
+    ```
+
+7. Создаем .env файл с вашими данными, можно создать из шаблона и просто поправить поля <br/>
 
     ```bash
     cp .env.example .env
     nano .env
     ```
 
-6. Создаем .service файл для вашего бота 
+8. Создаем .service файл для вашего бота 
     sudo nano /etc/systemd/system/namaz-bot.service<br/>
 
     ```ini
@@ -82,22 +102,22 @@ Database: MongoDB<br/>
 
     ```
 
-7. Включаем сервис и запускаем<br/>
+9. Включаем сервис и запускаем<br/>
 
     ```bash
     systemctl enable namaz-bot.service
     systemctl start namaz-bot.service
     ```
 
-8. Бот готов к использованию 
+10. Бот готов к использованию 
 
 ## пример заполнения .env файла:
     # ID администратора
     ADMIN="2964812"
     BOT_TOKEN="Токен бота"
     # имя пользователя БД
-    DB_USER=
+    DB_USER="bot_user"
     # пароль пользователя БД
-    DB_PASSWORD=
+    DB_PASSWORD="password1!"
     # Адрес базы данных
     DB_HOST="127.0.0.1"
