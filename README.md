@@ -8,7 +8,7 @@
 [![Telegram](https://img.shields.io/badge/telegram-blue?logo=telegram)](https://t.me/namazztime_bot)<br/>
 [![!Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![!Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![!MongoDB](https://img.shields.io/badge/MongoDB-Blue?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![!MongoDB](https://img.shields.io/badge/MongoDB-Blue?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![!Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.org/)
 
 </div>
