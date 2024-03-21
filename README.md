@@ -3,6 +3,7 @@
 </p>
 
 <div align = "center">
+
 [![GitHub](https://img.shields.io/github/license/rasulovdd/namaz-bot)](https://github.com/rasulovdd/namaz-bot/blob/main/LICENSE) 
 [![Telegram](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&color=blue)](https://t.me/namazztime_bot)
 
